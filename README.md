@@ -1,4 +1,4 @@
-towtruck-jamroom
+ujTowTruck Module for Jamroom 5
 ================
 
-TowTruck collaborative features for Jamroom 5
+Brings TowTruck collaborative features to Jamroom 5.
