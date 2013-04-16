@@ -30,7 +30,9 @@ function ujTowTruck_meta() {
  * init
  */
 function ujTowTruck_init() {
-    
+
+    jrCore_register_module_feature('jrCore','quota_support','ujTowTruck','off');
+
     return true;
 }
 
