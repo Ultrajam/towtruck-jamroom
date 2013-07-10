@@ -43,20 +43,6 @@ function ujTowTruck_config()
     );
     jrCore_register_setting('ujTowTruck',$_tmp);
 
-//------------------------------
-// Bootstrap Docs
-//------------------------------
-    // Bootstrap version
-    $_versions = ujBootstrap_get_versions();
-    $_tmp = array(
-        'name'     => 'bootstrap_version',
-        'label'    => 'bootstrap version',
-        'type'     => 'select',
-        'options'  => $_versions,
-        'default'  => '3.0.0',
-        'help'     => 'Select the bootstrap version to use as a base.'
-    );
-    jrCore_register_setting('ujTowTruck',$_tmp);
     return true;
 }
 
