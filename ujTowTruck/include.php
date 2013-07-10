@@ -34,10 +34,9 @@ function ujTowTruck_init() {
     jrCore_register_module_feature('jrCore','quota_support','ujTowTruck','off');
 
     // Nice bootstrap docs 
-    jrCore_register_module_feature('ujBootstrap','docs','ujImagePicker', true, '3.0.0');
+    jrCore_register_module_feature('ujBootstrap','docs','ujTowTruck', true, '3.0.0');
     // Add button link for the docs
-    jrCore_register_module_feature('jrCore','tool_view','ujImagePicker','docs',array('ujImagePicker Docs','Documentation for the ujImagePicker module'));
-
+    jrCore_register_module_feature('jrCore','tool_view','ujTowTruck','docs',array('ujTowTruck Docs','Documentation for the ujTowTruck module'));
     return true;
 }
 
