@@ -42,7 +42,10 @@ Add the smarty function to the desired template, we use footer.tpl in the active
 Go to the module info tab in the admin control panel and enable it.
 </p>
 <p>
-Go to the quota tab and enable TowTruck for the intended quota.
+Go to the config tab and enter the user ids of your collaborators as a comma separated list. Don't forget to enter your own user id.
+</p>
+<p>
+Alternatively, go to the quota tab and enable TowTruck for the intended quota.
 </p>
 
 
